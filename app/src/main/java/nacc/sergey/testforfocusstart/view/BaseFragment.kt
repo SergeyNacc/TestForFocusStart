@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import nacc.sergey.testforfocusstart.R
 
-class BaseFragment : AppCompatActivity() {
+class BaseFragment : AppCompatActivity(R.layout.fragment_base) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
